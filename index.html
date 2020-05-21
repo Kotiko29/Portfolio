@@ -5,60 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сайт портфолио</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <header class="header"class="header">
-    <h1 class="header-title">Kateika K.</h1>
-    <p class="header-subtitle">фрилансер, веб-разработчик,<br> создание сайтов</p>
-    <a href="#portfolio"><i class="fa fa-2x fa-angle-down fa-fw"></i></a>
-  </header>
 
-  <main>
-    <div class="container">
-      <h2 class="portfolio-title" id="portfolio">Портфолио</h2>
-      <ul class="portfolio-list">
-        <li class="portfolio-items">
-          <a href="#">
-            <img src="img/portfolio/portfolio-1.jpg">
-            <h3>Многостраничный сайт</h3>
-            <p>Верстка многостраничного сайта</p>
-          </a>
-        </li>
-        <li class="portfolio-items">
-          <a href="#">
-            <img src="img/portfolio/portfolio-2.jpg">
-            <h3>Адаптивный лендинг</h3>
-            <p>Верстка многостраничного сайта</p>
-          </a>
-        </li>
-        <li class="portfolio-items">
-          <a href="#">
-            <img src="img/portfolio/portfolio-3.jpg">
-            <h3>Личный сайт</h3>
-            <p>Верстка многостраничного сайта</p>
-          </a>
-        </li>
-        <li class="portfolio-items">
-          <a href="#">
-            <img src="img/portfolio/portfolio-4.jpg">
-            <h3>Интернет магазин</h3>
-            <p>Верстка многостраничного сайта</p>
-          </a>
-        </li>
-      </ul>
-    </div>    
+  <header class="header">
+    <h1 class="header-title">Екатерина Кравцова</h1>
+    <p class="header-subtitle">фрилансер, веб-разработчик,<br>создание сайтов</p>
+    <a href="#section-header" class="header-arrow">
+      <img src="../img/header/chevron-down.svg" alt="chevron-down">
+    </a>
+   </header>
+
+  <main class="">
+    <section class="portfolio">
+
+      <!-- Container -->
+
+      <div class="container">
+        <h2 class="section-header" id="section-header">Портфолио</h2>
+
+        <!-- portfolio-cards-wrapper  -->
+
+        <div class="portfolio-cards-wrapper">
+
+          <article class="card">
+            <img class="card-image" src="img/portfolio/portfolio-1.jpg" alt="card-1">
+            <h3 class="card-title">Многостраничный сайт</h3>
+            <p>Верстка многостраничного сайта.</p>
+          </article>
+          <article class="card">
+            <img class="card-image" src="img/portfolio/portfolio-2.jpg" alt="card-1">
+            <h3 class="card-title">Адаптивный лендинг</h3>
+            <p>Верстка многостраничного сайта.</p>
+          </article>
+          <article class="card">
+            <img class="card-image" src="img/portfolio/portfolio-3.jpg" alt="card-1">
+            <h3 class="card-title">Личный сайт</h3>
+            <p>Верстка многостраничного сайта.</p>
+          </article>
+          <article class="card">
+            <img class="card-image" src="img/portfolio/portfolio-4.jpg" alt="card-1">
+            <h3 class="card-title">Интернет магазин</h3>
+            <p>Верстка многостраничного сайта.</p>
+          </article>
+
+        </div>
+
+        <!-- // portfolio-cards-wrapper  -->
+
+      </div>
+
+      <!-- // Container -->
+
+    </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <ul>
-        <li>Kateika K. HTML верстка и разработка сайтов</li>
-        <li>Мои профили в социальных сетях:</li>
-        <li>Связаться вконтакте Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</li>
-      </ul>
-    </div>
-  </footer>  
+
+
+
+
 </body>
 </html>
